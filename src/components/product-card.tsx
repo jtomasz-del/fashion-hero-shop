@@ -98,8 +98,8 @@ export function ProductCard({ product, className }: ProductCardProps) {
           </div>
         </Link>
 
-        {/* Wishlist button — top-right, shows on hover */}
-        <div className="absolute top-3 right-3 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200 md:block hidden">
+        {/* Wishlist button — top-right */}
+        <div className="absolute top-3 right-3 z-10">
           <WishlistButton productId={product.id} className="bg-white/90 rounded-full p-1.5 hover:bg-white" />
         </div>
       </div>
